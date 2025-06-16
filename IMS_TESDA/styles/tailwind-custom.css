@@ -1,0 +1,66 @@
+/* Custom styles beyond Tailwind */
+
+/* For better scrollbars on recent activities */
+.overflow-y-auto::-webkit-scrollbar {
+    width: 6px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+    background: #cbd5e0;
+    border-radius: 3px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+    background: #a0aec0;
+}
+
+/* For category tag highlights */
+.tag-electrical {
+    background-color: #ebf8ff;
+    color: #3182ce;
+}
+
+.tag-welding {
+    background-color: #fefcbf;
+    color: #d69e2e;
+}
+
+.tag-kitchen {
+    background-color: #e6fffa;
+    color: #319795;
+}
+
+.tag-office {
+    background-color: #faf5ff;
+    color: #805ad5;
+}
+
+.tag-ict {
+    background-color: #f0fff4;
+    color: #38a169;
+}
+
+/* Status indicators */
+.status-issued {
+    color: #3182ce;
+}
+
+.status-returned {
+    color: #38a169;
+}
+
+.status-reported {
+    color: #e53e3e;
+}
+
+.status-repaired {
+    color: #d69e2e;
+}
+
+.status-added {
+    color: #805ad5;
+}
